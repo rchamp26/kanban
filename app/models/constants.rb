@@ -15,7 +15,7 @@ class Constants < ActiveRecord::Base
   DEFAULT_VALUE_DONE_WITHIN = "14"
 
   # Max number of WIP issue
-  DEFAULT_VALUE_WIP_MAX = "2"
+  DEFAULT_VALUE_WIP_MAX = "10"
 
   # Array of status IDs to be displayed initially
   # Please customize this array for your environment
@@ -25,7 +25,7 @@ class Constants < ActiveRecord::Base
   # 4: Feedback
   # 5: Closed
   # 6: Rejected
-  DEFAULT_STATUS_FIELD_VALUE_ARRAY = [1,2,3,4,5]
+  DEFAULT_STATUS_FIELD_VALUE_ARRAY = [1,2,3,4,5,6,7]
 
   # Status ID for WIP count
   WIP_COUNT_STATUS_FIELD = 10
