@@ -28,7 +28,7 @@ class Constants < ActiveRecord::Base
   DEFAULT_STATUS_FIELD_VALUE_ARRAY = [1,2,3,4,5]
 
   # Status ID for WIP count
-  WIP_COUNT_STATUS_FIELD = 2
+  WIP_COUNT_STATUS_FIELD = 10
 
   # Max length of note on sidebar (bytes)
   MAX_NOTES_BYTESIZE = 350
